@@ -1,0 +1,9 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: twitter-mention
+  - kind: log
+    loggingLevel: INFO
+  - kind: endpoint
+    uri: salesforce-upsert-contact
